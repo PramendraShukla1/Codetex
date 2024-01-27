@@ -3,8 +3,8 @@ import { FaAngleRight } from "react-icons/fa";
 
 const Testimonials = () => {
   return (
-    <div className="mt-10 w-full flex gap-8">
-      <div className="w-1/3 h-full rounded-2xl bg-white shadow-lg p-9 hover:shadow-2xl cursor-pointer">
+    <div className="lg:mt-10 mt-5 w-full flex gap-8 lg:p-16 p-5 flex-wrap lg:flex-nowrap">
+      <div className="lg:w-1/3 w-full h-full rounded-2xl bg-white shadow-lg p-9 hover:shadow-2xl cursor-pointer">
         {/* Head section  */}
         <div className="w-full flex gap-5 flex-wrap">
           <div className="flex items-center">
@@ -25,7 +25,7 @@ const Testimonials = () => {
         <div className="mt-10">
             <p className="text-lg text-gray-600">"Achieving this timeframe in a highly regulated environment like healthcare is phenomenal."</p>
         </div>
-        <hr className="mt-44"/>
+        <hr className="lg:mt-44 mt-14"/>
         <div className="w-full flex gap-5 mt-5">
           <div className="flex items-center bg-blue-600 w-full h-16 rounded-2xl p-2">
             <img
@@ -41,7 +41,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/3 h-full rounded-2xl bg-white shadow-lg p-9 hover:shadow-2xl cursor-pointer">
+      <div className="lg:w-1/3 w-full h-full rounded-2xl bg-white shadow-lg p-9 hover:shadow-2xl cursor-pointer">
         {/* Head section  */}
         <div className="w-full flex gap-5">
           <div className="flex items-center">
@@ -62,7 +62,7 @@ const Testimonials = () => {
         <div className="mt-10">
             <p className="text-lg text-gray-600">"Achieving this timeframe in a highly regulated environment like healthcare is phenomenal."</p>
         </div>
-        <hr className="mt-44"/>
+        <hr className="lg:mt-44 mt-14"/>
         <div className="w-full flex gap-5 mt-5">
           <div className="flex items-center bg-green-600 w-full h-16 rounded-2xl p-2">
             <img
@@ -78,7 +78,7 @@ const Testimonials = () => {
           </div>
         </div>
       </div>
-      <div className="w-1/3 h-full rounded-2xl bg-white shadow-lg p-9 hover:shadow-2xl cursor-pointer">
+      <div className="lg:w-1/3 w-full h-full rounded-2xl bg-white shadow-lg p-9 hover:shadow-2xl cursor-pointer">
         {/* Head section  */}
         <div className="w-full flex gap-5">
           <div className="flex items-center">
@@ -99,7 +99,7 @@ const Testimonials = () => {
         <div className="mt-10">
             <p className="text-lg text-gray-600">"Achieving this timeframe in a highly regulated environment like healthcare is phenomenal."</p>
         </div>
-        <hr className="mt-44"/>
+        <hr className="lg:mt-44 mt-16"/>
         <div className="w-full flex gap-5 mt-5">
           <div className="flex items-center bg-white border w-full h-16 rounded-2xl p-3">
             <img

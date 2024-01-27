@@ -3,7 +3,10 @@
 @tailwind utilities;
 
 body{
-    padding: 20px;
+    padding: 0px;
     font-family: 'Open Sans', sans-serif;
     background-color: #f3f4f6;
+}
+.navbarReal{
+    padding: 20px;
 }

@@ -4,10 +4,10 @@ import afterImg from "../assets/afterImg.png";
 
 const BottleNecks = () => {
   return (
-    <div className="flex justify-center">
-    <div className="mt-20  shadow-xl bg-white rounded-2xl h-full p-10 w-5/6 flex flex-wrap justify-between">
+    <div className="flex justify-center flex-wrap p-5">
+    <div className="lg:mt-20 mt-10  shadow-xl bg-white rounded-2xl h-full p-10 lg:w-5/6 w-full flex flex-wrap justify-between">
       {/* Left Div */}
-      <div className="w-1/2">
+      <div className="lg:w-1/2 w-full">
         <p className="text-lg font-bold text-[#2058e4]">DATA BOTTLENECKS</p>
         <p className="mt-5 text-2xl font-bold">
           Building data backends is slowing your modernization
@@ -28,7 +28,7 @@ const BottleNecks = () => {
           </li>
         </ul>
         <div className="w-full mt-5 flex gap-5">
-          <div className="w-1/5">
+          <div className="lg:w-1/5 w-2/3">
             <p className="rounded-full pl-2 pr-2 pt-1 pb-1 bg-[#dfe8ff] font-semibold text-gray-600 flex place-content-center">
               End Result
             </p>
@@ -62,7 +62,7 @@ const BottleNecks = () => {
         </ul>
       </div>
       {/* Right Div */}
-      <div className="w-1/2 flex place-content-end items-start ">
+      <div className="w-1/2 place-content-end items-start lg:flex hidden">
         <img src={beforeImg} alt="" className="h-[400px] w-[400px]" />
       </div>
     </div>

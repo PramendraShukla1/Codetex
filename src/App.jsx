@@ -5,6 +5,8 @@ import Testimonials from "./components/Testimonials";
 import Countdown from "./components/Countdown";
 import BottleNecks from "./components/BottleNecks";
 import Features from "./components/Features";
+import Newsletter from "./components/Newsletter";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Countdown/>
       <BottleNecks/>
       <Features/>
+      <Newsletter/>
+      <Footer/>
     </>
   );
 };
